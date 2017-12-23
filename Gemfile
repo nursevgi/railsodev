@@ -5,11 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 
-gem 'bootstrap-sass'
 gem 'jquery-rails'
-gem 'devise'
-gem 'paperclip'
-gem 'activeadmin'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -44,6 +41,11 @@ end
 
 group :development do
   gem 'sqlite3'
+  gem 'bootstrap-sass'
+  gem 'jquery-rails'
+  gem 'devise'
+  gem 'paperclip'
+  gem 'activeadmin'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
