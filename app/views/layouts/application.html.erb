@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= t "cicek"%></title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="background-image:url(https://wallpaperscraft.com/image/circles_shiny_light_colors_28063_1920x1200.jpg");  width="100%" height="100%";>
+
+ <img src="http://static.lewisiamountaindreams.com/cdn/20120031/banner_home-2100-400.jpg" width="100%" height="130px"/>
+ <%= render "shared/nav" %>
+ 
+<div class="container11">
+    
+    <div class="row">
+      <div class="col-md-3 hidden-xs hidden-sm" >
+      <br>
+     <center><img src="http://www.evka3cicekci.com/images/dogumgunusablon.jpg" width="95%" height="95%"/></center><br><br> 
+      <h4><b><center><%= t "anlam" %></center></b></h4><br><br><br>
+       <marquee align="middle" scrollamount="5" height="350" width="100%" direction="up"scrolldelay="1">
+         <center><%= t "kirmizigul" %></center><br><br>
+         <center><%= t "bgul" %></center><br><br>
+         <center><%= t "pgul" %></center><br><br>
+         <center><%= t "bkar" %></center><br><br>
+         <center><%= t "kkar" %></center><br><br>
+         <center><%= t "pkar" %></center><br><br>
+         <center><%= t "skar" %></center><br><br>
+         <center><%= t "anemon" %></center><br><br>
+         <center><%= t "bgla" %></center><br><br>
+         <center><%= t "kgla" %></center><br><br>
+         <center><%= t "pgla" %></center><br><br>
+         <center><%= t "sgla" %></center><br><br>
+         <center><%= t "mgla" %></center><br><br>
+         <center><%= t "orkide" %></center><br><br>
+         <center><%= t "agel" %></center><br><br>
+         <center><%= t "nilufer" %></center><br><br>
+         <center><%= t "blale" %></center><br><br>
+         <center><%= t "klale" %></center><br><br>
+         <center><%= t "plale" %></center><br><br>
+         <center><%= t "slale" %></center><br><br>
+         <center><%= t "menek" %></center><br><br>
+
+       </marquee>
+      </div>
+      
+     <div class="col-md-6">
+      <%= yield %>
+    </div>
+    
+    <div class="col-md-3 hidden-xs hidden-sm" >
+     <CENTER> <B><%= t "sosyalmedya" %></B> </CENTER><BR>
+         
+     <CENTER><img src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" width="50" height="50"/>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/YouTube_Square.png" width="50" height="50"/>
+      <img src="http://www.hasandilsiz.com.tr/wp-content/uploads/Instagram-yeni-uygulama-ikonu.png" width="50" height="50"/>
+      <img src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/256/Twitter-icon.png" width="50" height="50"/><br><br> 
+      <img src="https://www.delinetciler.org/resimler/2007/09/2172.gif" width="75%" height="100px"/><br><br></CENTER>
+    
+     <center> <img src="http://durucicekcilik.com/uploads/7193542-reklam1.gif" width="60%" height="50%"/><br><br>
+      <img src="http://www.pendik-cicekci.com/uploads/6379455-sol-reklam222.gif" width="60%" height="50%"/><br><br> </center>
+     </div>
+  
+    </div>
+    </div>
+
+
+<footer class="pull-center footer">
+    <hr class="divider">
+   <center> Copyright &COPY; 2017 | 14542020 SEVGİNUR TEKE B GÜNDÜZ - Yazılım Mühendisliği</center>
+</footer>
+
+
+
+
+</body>
+</html>

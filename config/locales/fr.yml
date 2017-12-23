@@ -1,0 +1,85 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+fr:
+  hello: "Bonjour"
+  Welcome: "Bienvenue"
+  Password_new: "Mot de passe Nouveau"
+  Password_again: "Mot de passe encore"
+  Logged_in_as: "connecté en tant que:"
+  Edit_profile: "Editer le profil"
+  New_Post: "Nouveau poste"
+  Are_you_sure: "Êtes-vous sûr?"
+  Create_Post: "Créer un message"
+  Current_password: "Confirmation mot de passe"
+  Update: "Mettre à jour"
+  Password: "Mot de passe"
+  Listing_Posts: "Articles de la liste"
+  Editing_Post: "Modifier le message"
+  continue: "continuer"
+  Edit_user: "Modifier l'utilisateur"
+  Login: "S'identifier"
+  Email: "Email"
+  Remember_me: "Souviens-toi de moi"
+  Sign_up: "S'inscrire"
+  Forgot_your_password: "Mot de passe oublié?"
+  Name: "prénom"
+  Title: "Titre"
+  Msg: "Mesaj"
+  Image: "Image"
+  Show: "Montrer"
+  Edit: "modifier"
+  Destroy: "Effacer"
+  Logout: "Connectez - Out"
+  Cancel_my_account: "Annuler mon compte"
+  Back: "Arrière"
+  Click_Here_to_Login: "Cliquez ici pour vous identifier..."
+  cicek: "Le Monde Secret Des Fleurs"
+  anasayfa: "page d'accueil"
+  hakkimizda: "A propos de nous"
+  burclar: "Fleurs par style"
+  bakim: "Soin des fleurs"
+  siparis: "Commande de fleurs"
+  anlam: "Connaissez-vous le sens des fleurs?"
+  kirmizigul: "Rose rouge: amour"
+  bgul: " Rose blanche: Innocence"
+  pgul: " Rose rose: je suis amoureux"
+  bkar: "Oeillet blanc: Propreté, pureté"
+  kkar: "Oeillet rouge: amour"
+  pkar: "Oeillet rose: Sincérité"
+  skar: "Oeillet jaune: Tristesse"
+  anemon: "Anémone: jeunesse"
+  bgla: "Gladiateur blanc: Amitié"
+  kgla: "Gladateur rouge: souhait"
+  pgla: "Gladiateur rose: élégance"
+  sgla: "Éblouissement jaune: la jalousie"
+  mgla: "Gladiateur pourpre: la foi"
+  orkide: "Orchidée: Fière, fière"
+  agel: "Crying Bride: Rébellion"
+  nilufer: "Nilüfer: renouvellement futur"
+  blale: "Tulipe blanche: Pureté, propreté"
+  klale: "Red Tulip: je t'aime"
+  plale: "Tulipe rose: compréhension"
+  slale: "Tulipe jaune: tension"
+  menek: "Violet: humble"
+  sosyalmedya: "Suivez-nous sur les réseaux sociaux..."
+  diller: "Langues"
+  

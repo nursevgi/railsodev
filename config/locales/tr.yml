@@ -1,0 +1,83 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+tr:
+  Hello: "Merhaba Dünya"
+  Name: "Adınız"
+  Password_new: "Yeni Parolanız ( En az 6 Karakter )"
+  Password_again: "Yeni Parola Tekrar"
+  Sign_up: "Yeni Kayıt Oluştur"
+  Remember_me: "Beni Hatırla"
+  Forgot_your_password: "Parolanızı Mı unuttunuz?"
+  Logged_in_as: "Oturum Açtığınız Hesap:"
+  Edit_profile: "Profili Düzenle"
+  Logout: "Çıkış Yap"
+  Title: "Başlık"
+  Msg: "Mesaj"
+  Image: "Resim"
+  Show: "Göster"
+  Edit: "Düzenle"
+  Destroy: "Sil"
+  New_Post: "Yeni Posta"
+  Back: "Geri"
+  Are_you_sure: "Silmek istediğinize Emin misiniz"
+  Create_Post: "Posta Oluştur"
+  Current_password: "Parolanız"
+  Update: "Güncelle"
+  Cancel_my_account: "Hesabı sil"
+  Password: "Parola"
+  Listing_Posts: "Posta Listesi"
+  Editing_Post: "Postayı Düzenle"
+  continue: "Devam Etmek İçin Tıklayınız..."
+  Edit_user: "Hesabı Düzenle"
+  Log_in: "Giriş Yapınız"
+  Click_Here_to_Login: "Siteye Giriş İçin Tıklayınız..."
+  Welcome: "Hoşgeldiniz"
+  cicek: "Çiçeklerin Gizli Dünyası"
+  anasayfa: "Anasayfa"
+  hakkimizda: "Hakkımızda"
+  burclar: "Burçlara Göre Çiçekler"
+  bakim: "Çiçek Bakımı"
+  siparis: "Çiçek Siparişi"
+  anlam: "Çiçeklerin Anlamlarını Biliyor Musunuz?"
+  kirmizigul: "Kırmızı Gül:Aşk"
+  bgul: "Beyaz Gül:Masumiyet"
+  pgul: "Pembe Gül:Gönlüm sende"
+  bkar: "Beyaz Karanfil:Temizlik, saflık"
+  kkar: "Kırmızı Karanfil:Sevgi"
+  pkar: "Pembe Karanfil:İçtenlik"
+  skar: "Sarı Karanfil:Hüzün"
+  anemon: "Anemon: Gençlik"
+  bgla: "Beyaz Glayör:Dostluk"
+  kgla: "Kırmızı Glayör:İstek"
+  pgla: "Pembe Glayör:Zerafet"
+  sgla: "Sarı Glayör:Kıskançlık"
+  mgla: "Mor Glayör:İnanç"
+  orkide: "Orkide :Mağrur, gururlu"
+  agel: " Ağlayan Gelin:İsyan"
+  nilufer: "Nilüfer:Gelecek yenileme"
+  blale: "Beyaz Lale:Saflık, temizlik"
+  klale: "Kırmızı Lale:Seni seviyorum"
+  plale: "Pembe Lale:Anlayış"
+  slale: "Sarı Lale:Gerginlik"
+  menek: "Menekşe:Alçak gönüllü"
+  sosyalmedya: "Bizi Sosyal Medyada Takip Edin..."
+  diller: "Diller"

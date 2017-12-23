@@ -1,0 +1,83 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  hello: "Hello"
+  Welcome: "Welcome"
+  Email: "Email"
+  Name: "Name"
+  Password_new: "Password ( 6 character minimum )"
+  Password_again: "Password Confirmation"
+  Sign_up: "Sign up"
+  Login: "Login"
+  Remember_me: "Remember me"
+  Forgot_your_password: "Forgot your password?"
+  Logged_in_as: "Logged in as:"
+  Edit_profile: "Edit Profile"
+  Logout: "Logout"
+  Title: "Title"
+  Msg: "Message"
+  Image: "Image"
+  Show: "Show"
+  Edit: "Edit"
+  Destroy: "Destory"
+  New_Post: "New Post"
+  Back: "Back"
+  Are_you_sure: "Are you sure"
+  Create_Post: "Create Post"
+  Current_password: "Current password"
+  Update: "Update"
+  Cancel_my_account: "Cancel my account"
+  Password: "password"
+  Listing_Posts: "Listing Posts"
+  Editing_Post: "Editing Post"
+  Click_Here_to_Login: "Click Here to Login ..."
+  Edit_user: "Edit User"
+  cicek: "The Secret World of Flowers"
+  anasayfa: "Home page"
+  hakkimizda: "about us"
+  burclar: "Flowers by Style"
+  bakim: "Flower Care"
+  siparis: "Flower Order"
+  anlam: "Do You Know The Meanings Of Flowers?"
+  kirmizigul: "Red Rose: Love"
+  bgul: "White Rose: Innocence"
+  pgul: "Pink Rose: I'm in love"
+  bkar: "White Carnation: Cleanliness, purity"
+  kkar: "Red Carnation: Love"
+  pkar: "Pink Carnation: Sincerity"
+  skar: "Yellow Carnation: Sadness"
+  anemon: "Anemone Youth"
+  bgla: "White Gladiator: Friendship"
+  kgla: "Red Gladiator: Wish"
+  pgla: "Pink Gladiator: Elegance"
+  sgla: "Yellow Glare: Jealousy"
+  mgla: "Purple Gladiator: Faith"
+  orkide: "Orchid: Proud, proud"
+  agel: "Crying Bride: Rebellion"
+  nilufer: "Nilüfer: Future renewal"
+  blale: "White Tulip: Purity, cleanliness"
+  klale: "Red Tulip: I love you"
+  plale: "Pink Tulip: Understanding"
+  slale: "Yellow Tulip: Tension"
+  menek: "Violet: humble"
+  sosyalmedya: "Follow us on social media..."
+  diller: "Languages"
